@@ -4,28 +4,25 @@ function calcSub(){
     
     var argSubTotal;
     if(document.getElementbyId('Salesforce').checked) {
-    argSubtotal= 100;
+    argSubTotal= 100;
 }
 else{
-    argSubtotal = 300;
+    argSubTotal = 300;
 }
- display(argSubtotal);
+ display(argSubTotal);
  }
  
  function display(parm1){
      
      document.getElementbyId("subtotal").value = parm1;
      document.getElementById("total").value = parm1;
-     
-     enablebtnProceed()
+ }
+     function enablebtnProceed(){
      $('#btnProceed').prop('Disabled', false);
      
  }
  function disablebtnProceed() {
-     $('#btnProceed').prop('disabled', false);
+     $('#btnProceed').prop('disabled', true);
     
  }
  
- function disablebtnproceed() {
-     $('#btnProceed').prop('disabled', true);
- }

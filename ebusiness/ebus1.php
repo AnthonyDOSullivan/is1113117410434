@@ -29,19 +29,19 @@
                </label>
                 
                 <br/>
-                <br/>
+                
                 
                 <label for="subtotal"
                 subtotal
-                <input type="text" id="subtotal" value="0.00" readonly
-               <label/>
+                <input type="text" id="subtotal" value="0.00"  Name="subtotal"readonly/>
+               </label>
                
                 <br/>
                 
                  <label for="total"
                 total
-                <input type="text" id="total" value="0.00" readonly
-               <label/>
+                <input type="text" id="total" value="0.00" Name="total"readonly/>
+               </label>
                
                <br/>
                 
@@ -52,7 +52,7 @@
             
             <br/>
             <button onClick="calcsub()"> Calculate Cost</button>
-            <a role="button" href="ebus1.phop"> Clear Choice</a>
+            <a role="button" href="ebus1.php"> Clear Choice</a>
     
     
     </body>
