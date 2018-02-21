@@ -1,19 +1,17 @@
 <?php
 session_start();
 ?>
-<!DOCTYPEhtml>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>RECEIPT </title>
-        
+        <title>RECEIPT</title>
     </head>
     <body>
         <h4>RECEIPT</h4>
-        
+                
         <?php
-        //Echo session variables that were set in previous page 
-        echo "Total is " .$_SESSION["total"] . ".";
+        // Echo session variables that were set on previous page
+        echo "Total is " . $_SESSION["total"] . ".";
         ?>
-  
     </body>
 </html>
