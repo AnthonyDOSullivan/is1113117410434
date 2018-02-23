@@ -38,6 +38,8 @@ session_start();
             
             <?php
             // Set session variables
+            $_SESSION["name"] = $_POST["user_name"];
+            $_SESSION["email"] = $_POST["user_email"];
             $_SESSION["total"] = $_POST["total"];
             ?>
         
