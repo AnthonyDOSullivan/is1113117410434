@@ -1,8 +1,8 @@
 /* global $ */
-
-function calcSub(){
+var argSubTotal;
+function calcsub(){
     
-    var argSubTotal;
+    
     
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
@@ -13,28 +13,37 @@ function calcSub(){
     else if(document.getElementById('aws').checked) {
       argSubTotal = 300;
     }
-    else {
+    else if(document.getElementById('gmail').checked) {
       argSubTotal = 400;
     }
-    display(argSubTotal)
+    calcDisVatTotal(argSubTotal);
+   
 }
 
-function calcDisVatTotal(){
-    var parmSubTotal=argSubTotal
-    var discountAmt= parmSubTotal*0.05;
-    var vatAmt= parmSubTotal*0.1;
-    var totalPrice= parmSubTotal + vatAmt + discountAmt;
+  
+
+function calcDisVatTotal(argSubTotal){
+    var subtotal = argSubTotal;
+    var discountAmt = (subtotal) * 0.05;
+    console.log(discountAmt);
+    var vatAmt= subtotal*0.1; 
+   
+    var totalPrice = subtotal + vatAmt + discountAmt;
+    display(argSubTotal, discountAmt, vatAmt, totalPrice);
+    
+ 
+}
 
     
-    display(totalPrice);
-}
-
+  
 function display(parm1,parm2,parm3,parm4){
+ 
   
   document.getElementById("subtotal").value = parm1;
   document.getElementById("discount").value= parm2;
   document.getElementById("vat").value = parm3;
   document.getElementById("total").value = parm4;
+  
   
         
   enablebtnProceed();
