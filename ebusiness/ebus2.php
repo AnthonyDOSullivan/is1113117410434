@@ -19,11 +19,11 @@ session_start();
                 
                 <label for="user_name">Name:</label>
                     
-                    <input type="text" id="user_name" placeholder="Name" maxlength="50">
+                    <input type="text" id="username" placeholder="Name" maxlength="50">
                     
                     <label for="user_email">E-mail</label>
                     
-                    <input type="text" id="user_email" placeholder="E-mail" maxlength="50">
+                    <input type="text" id="useremail" placeholder="E-mail" maxlength="50">
 
                     <label for="user_pin">PIN</label>
                     
@@ -38,8 +38,8 @@ session_start();
             
             <?php
             // Set session variables
-            $_SESSION["name"] = $_POST["user_name"];
-            $_SESSION["email"] = $_POST["user_email"];
+            $_SESSION["username"] = $_POST["username"];
+            $_SESSION["useremail"] = $_POST["useremail"];
             $_SESSION["total"] = $_POST["total"];
             ?>
         
