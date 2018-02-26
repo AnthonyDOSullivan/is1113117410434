@@ -1,16 +1,24 @@
 #section1{
-    background-color: rgb(238, 0, 99);
+    background-image: url("http://flags.fmcdn.net/data/flags/w580/es.png");
+      background-repeat: no-repeat;
+       background-size: cover;
 }
 
 #section2{
-    background-color: rgb(44, 62,80);
+    background-image: url("https://themerkle.com/wp-content/uploads/2017/08/sydney-363244_960_720.jpg");
+      background-repeat: no-repeat;
+       background-size: cover;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+       background-image: url("https://23796-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2015/04/DSC02105-1.jpg");
+      background-repeat: no-repeat;
+       background-size: cover;
 }
 
 .section{
+    border:0px;
+    background-color: dodgerblue;
     text-align: center;
     color:white;
 }

@@ -1,6 +1,9 @@
 <?php
 // Start the session
 session_start();
+$_SESSION["username"];
+$_SESSION["useremail"];
+$_SESSION["total"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,11 +22,11 @@ session_start();
                 
                 <label for="username">Name:</label>
                     
-                    <input type="text" id="username" placeholder="Name" maxlength="50">
+                    <input type="text" id="username" name="username" placeholder="Name" maxlength="50"/>
                     
                     <label for="useremail">E-mail</label>
                     
-                    <input type="text" id="useremail" placeholder="E-mail" maxlength="50">
+                    <input type="text" id="useremail" name="useremail" placeholder="E-mail" maxlength="50"/>
 
                     <label for="user_pin">PIN</label>
                     
@@ -36,7 +39,7 @@ session_start();
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
-            <?php session_start();
+            <?php
             // Set session variable
             $_SESSION["username"] = $_POST["username"];
             $_SESSION["useremail"] = $_POST["useremail"];
