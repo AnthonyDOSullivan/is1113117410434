@@ -17,11 +17,11 @@ session_start();
         
             <form action="Ebus3.php" method="POST">
                 
-                <label for="user_name">Name:</label>
+                <label for="username">Name:</label>
                     
                     <input type="text" id="username" placeholder="Name" maxlength="50">
                     
-                    <label for="user_email">E-mail</label>
+                    <label for="useremail">E-mail</label>
                     
                     <input type="text" id="useremail" placeholder="E-mail" maxlength="50">
 
@@ -36,8 +36,8 @@ session_start();
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
-            <?php
-            // Set session variables
+            <?php session_start();
+            // Set session variable
             $_SESSION["username"] = $_POST["username"];
             $_SESSION["useremail"] = $_POST["useremail"];
             $_SESSION["total"] = $_POST["total"];

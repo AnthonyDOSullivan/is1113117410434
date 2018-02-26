@@ -25,10 +25,9 @@ function calcsub(){
 function calcDisVatTotal(argSubTotal){
     var subtotal = argSubTotal;
     var discountAmt = (subtotal) * 0.05;
-    console.log(discountAmt);
     var vatAmt= subtotal*0.1; 
    
-    var totalPrice = subtotal + vatAmt + discountAmt;
+    var totalPrice = subtotal + vatAmt - discountAmt;
     display(argSubTotal, discountAmt, vatAmt, totalPrice);
     
  
