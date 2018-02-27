@@ -1,60 +1,94 @@
 <!DOCTYPE html> 
 <html>
+    <style>
+      body {
+     background-image: url("http://barbmayer.com/images/backgrounds/blue_sky_background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      </style>
+           
     <head>
         <title>117410434</title>
         <link rel="stylesheet" hfref="mystylesheet.css" type="text/css">
-       </head>
-        
-       <body>
-
-        <style>
-        body {
-     background-image: url("https://bissoc.ucc.ie/wp-content/uploads/sites/108/2016/05/408703_246241438832616_1769562845_n.png");
-      background-repeat: no-repeat;
-       background-size: cover;
-}
-        </style>
-            <h1 style="background:Azure" class="mainheading">IS1113 Project(117410434)</h1>
-               <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    background:white;
-}
-
-li {
-    float: left;
-     border-right: 3px solid #bbb;
-}
-
-li a {
-    display: inline-block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
+      <style>
+ 
+       div {background-color: azure;}
+div a {
     text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
 }
+ul {
+    display:inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: grey;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: grey ; 
+  display: block; 
+  color : black;
+}
+ul li ul li a {display:block;} 
+ul li ul li:hover {background: grey;}
 li a:hover:not(.active) {
-    background-color: #290;
+    background-color: azure;
 }
+ a:hover:not(.active) {
+    background-color: grey;
+}
+</style>
+</head>
 
-
-
-            </style>
+    
 <body>
-
        
+       <style>
+       h1{text-align:center;
+       
+       }
+    
+       </style>
+    
+
+       <div class="topnav" style="align:center">
+  
+           
         <ul>
-  <li><a href="cv_page1.html">Curriculum Vitae</a></li>
-  <li><a href="Interests/sports.html">Interests</a></li>
-  <li><a href="ebusiness/ebus1.php">E-Business </a></li>
-  <li><a href="about_cloud.html">About Cloud Services</a></li>
-  <li><a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a></li>
-  <li><a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a></li>
-  <li ><a href=https://is1113117410434.herokuapp.com/>Website link </a></li>
-</ul>
+  <li><a href="cv_page1.html">Curriculum Vitae</a>
+  <ul>
+        <li><a href="cv_page1.html">CV Page 1</a></li>
+        <li><a href="cv_page2.html">CV Page 2</a></li>
+        <li><a href="cv_page3.html">CV Page 3</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><a href="Interests/sports.html">Interests</a>
+    <ul>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="travel.html">Travel</a></li>
+    </ul>
+    </li>
+    </ul>
+  <a href="ebusiness/ebus1.php">E-Business </a>
+  <a href="about_cloud.html">About Cloud Services</a>
+  <a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a>
+  <a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a>
+  <a href=https://is1113117410434.herokuapp.com/>Website link </a>
+  
+</div>
+<h1 style="align:center" class="mainheading">IS1113 Project(117410434)</h1>
 
     
     

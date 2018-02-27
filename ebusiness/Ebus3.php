@@ -8,6 +8,78 @@ $_SESSION["total"];
         <title>RECEIPT</title>
     </head>
     <body>
+        <style>
+            body{ text-align:center;
+              background-image: url("http://barbmayer.com/images/backgrounds/blue_sky_background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+            }
+                  div {background-color: azure;
+          
+        }
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+ul {
+    display:inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: grey;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: grey ; 
+  display: block; 
+  color : black;
+}
+ul li ul li a {display:block;} 
+ul li ul li:hover {background: grey;}
+li a:hover:not(.active) {
+    background-color: azure;
+}
+ a:hover:not(.active) {
+    background-color: grey;
+
+
+        }
+        </style>
+        <div class="topnav">
+  
+           
+        <ul>
+  <li><a href="cv_page1.html">Curriculum Vitae</a>
+  <ul>
+        <li><a href="cv_page1.html">CV Page 1</a></li>
+        <li><a href="cv_page2.html">CV Page 2</a></li>
+        <li><a href="cv_page3.html">CV Page 3</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><a href="Interests/sports.html">Interests</a>
+    <ul>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="travel.html">Travel</a></li>
+    </ul>
+    </li>
+    </ul>
+  <a href="ebusiness/ebus1.php">E-Business </a>
+  <a href="about_cloud.html">About Cloud Services</a>
+  <a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a>
+  <a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a>
+  <a href=https://is1113117410434.herokuapp.com/>Website link </a>
+  
+</div>
         <h4>RECEIPT</h4>
                 
         <?php
