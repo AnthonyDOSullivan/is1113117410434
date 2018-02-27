@@ -1,4 +1,5 @@
-body{background-image: url("https://bissoc.ucc.ie/wp-content/uploads/sites/108/2016/05/408703_246241438832616_1769562845_n.png");
+body{background-image: url("https://pbs.twimg.com/media/DW6sqjRXUAAwCPv.jpg");
       background-repeat: no-repeat;
-       background-size: cover;
+       background-size: contain;
+       color: azure;
 }

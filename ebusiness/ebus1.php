@@ -10,6 +10,12 @@
     </head>
     
     <body>
+      <style>
+        body{
+          background-color:dodgerblue;
+          text-align:center;
+        }
+      </style>
         
             <h4>Select a Product</h4>
             

@@ -15,6 +15,12 @@ $_SESSION["total"];
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
+        <style>
+            body{
+                text-align:center;
+                background-color:dodgerblue;
+            }
+        </style>
         <h4>Please enter your payment details</h4>
         
         
@@ -24,9 +30,13 @@ $_SESSION["total"];
                     
                     <input type="text" id="username" name="username" placeholder="Name" maxlength="50"/>
                     
+                    <br/>
+                    
                     <label for="useremail">E-mail</label>
                     
                     <input type="text" id="useremail" name="useremail" placeholder="E-mail" maxlength="50"/>
+                    
+                    <br/>
 
                     <label for="user_pin">PIN</label>
                     
