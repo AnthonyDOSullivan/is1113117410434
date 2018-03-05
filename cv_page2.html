@@ -18,11 +18,10 @@
             background-size: cover;
             text-align:center;
         }
-         
-       div {background-color: azure;}
+      .topnav{background-color: black;}
 div a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     padding: 15px;
     display:inline-block;
@@ -33,7 +32,7 @@ ul {
   padding: 0;
 }
 ul li {display: inline-block;}
-ul li:hover {background: grey;}
+ul li:hover {background: #adad85;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
@@ -41,20 +40,32 @@ ul li ul {
   display: none;
 }
 ul li ul li { 
-  background: grey ; 
+  background: #adad85 ; 
   display: block; 
-  color : black;
+  color : #c2c2a3;
 }
 ul li ul li a {display:block;} 
-ul li ul li:hover {background: azure;}
+ul li ul li:hover {background: #adad85;}
 li a:hover:not(.active) {
-    background-color: azure;
+    background-color: #c2c2a3;
 }
  a:hover:not(.active) {
-    background-color: grey;
+    background-color: #adad85;
 }
-nav { text-align:center;
-    justify-content:center;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
         </style>
         <div class="topnav">
@@ -72,8 +83,8 @@ nav { text-align:center;
   <ul>
     <li><a href="Interests/sports.html">Interests</a>
     <ul>
-        <li><a href="sports.html">Sports</a></li>
-        <li><a href="travel.html">Travel</a></li>
+        <li><a href="Interests/sports.html">Sports</a></li>
+        <li><a href="Interests/travel.html">Travel</a></li>
     </ul>
     </li>
     </ul>
@@ -82,10 +93,56 @@ nav { text-align:center;
   <a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a>
   <a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a>
   <a href=https://is1113117410434.herokuapp.com/>Website link </a>
+  </div>
          
         <h1 class="mainheading"> Educational Details</h1>
         <p><strong>Secondary School:</strong> Gaelcholáiste Mhuire AG</p>
         <p><strong>Years:</strong>2011-2017</p>
+        <h2>Leaving Certificate Results 2017</h2>
+
+<table>
+  <tr>
+    <th>Subject</th>
+    <th>Level</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td>Irish</td>
+    <td>Higher</td>
+    <td>H1</td>
+  </tr>
+  <tr>
+    <td>Maths</td>
+    <td>Higher</td>
+    <td>H5</td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td>Higher</td>
+    <td>H3</td>
+  </tr>
+  <tr>
+    <td>French</td>
+    <td>Higher</td>
+    <td>H4</td>
+  </tr>
+  <tr>
+    <td>History</td>
+    <td>Higher</td>
+    <td>H3</td>
+  </tr>
+  <tr>
+    <td>Economics</td>
+    <td>Higher</td>
+    <td>H3</td>
+  </tr>
+  <tr>
+    <td>Biology</td>
+    <td>Higher</td>
+    <td>H3</td>
+  </tr>
+</table>
+
         <p><strong>College:</strong> University College Cork</p>
         <p><strong>Course:</strong>Business Information Systems</p>
         <p><strong>Years:</strong>2017-2021</p>

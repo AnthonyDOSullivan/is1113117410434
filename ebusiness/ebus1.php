@@ -17,12 +17,10 @@
             background-size: cover;
             text-align:center;
         }
-               div {background-color: azure;
-          
-        }
+              div {background-color: black;}
 div a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     padding: 15px;
     display:inline-block;
@@ -33,7 +31,7 @@ ul {
   padding: 0;
 }
 ul li {display: inline-block;}
-ul li:hover {background: grey;}
+ul li:hover {background: #adad85;}
 ul li:hover ul {display: block;}
 ul li ul {
   position: absolute;
@@ -41,20 +39,18 @@ ul li ul {
   display: none;
 }
 ul li ul li { 
-  background: grey ; 
+  background: #adad85 ; 
   display: block; 
-  color : black;
+  color : #c2c2a3;
 }
 ul li ul li a {display:block;} 
-ul li ul li:hover {background: grey;}
+ul li ul li:hover {background: #adad85;}
 li a:hover:not(.active) {
-    background-color: azure;
+    background-color: #c2c2a3;
 }
  a:hover:not(.active) {
-    background-color: grey;
-
-
-        }
+    background-color: #adad85;
+}
       </style>
       <div class="topnav">
   
@@ -71,8 +67,8 @@ li a:hover:not(.active) {
   <ul>
     <li><a href="Interests/sports.html">Interests</a>
     <ul>
-        <li><a href="sports.html">Sports</a></li>
-        <li><a href="travel.html">Travel</a></li>
+        <li><a href="Interests/sports.html">Sports</a></li>
+        <li><a href="Interests/travel.html">Travel</a></li>
     </ul>
     </li>
     </ul>
