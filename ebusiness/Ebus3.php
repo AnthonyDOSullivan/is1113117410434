@@ -51,7 +51,7 @@ li a:hover:not(.active) {
         </style>
         <div class="topnav">
   
-           
+         <a href="homepage.html">Home</a>   
         <ul>
   <li><a href="cv_page1.html">Curriculum Vitae</a>
   <ul>
@@ -76,6 +76,7 @@ li a:hover:not(.active) {
   <a href=https://is1113117410434.herokuapp.com/>Website link </a>
   
 </div>
+         <h1 class="mainheading">Cloudco</h1>
         <h4>RECEIPT</h4>
                 
         <?php

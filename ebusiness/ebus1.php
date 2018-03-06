@@ -54,7 +54,7 @@ li a:hover:not(.active) {
       </style>
       <div class="topnav">
   
-           
+        <a href="homepage.html">Home</a>    
         <ul>
   <li><a href="cv_page1.html">Curriculum Vitae</a>
   <ul>
