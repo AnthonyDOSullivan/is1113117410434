@@ -1,20 +1,22 @@
-<?php
-session_start();
-$_SESSION["total"];
-?>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
+   
+    
+           
     <head>
-        <title>RECEIPT</title>
-    </head>
-    <body>
-        <style>
-            body{ text-align:center;
-              background-image: url("http://barbmayer.com/images/backgrounds/blue_sky_background.jpg");
+        <title>117410434</title>
+        <link  hfref="mystylesheet.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+      <style>
+      h1{text-align:center;}
+     body {
+     background-image: url("http://barbmayer.com/images/backgrounds/blue_sky_background.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-            }
-               div {background-color: black;}
+      }
+ 
+       div {background-color: black;}
 div a {
     text-decoration: none;
     color: white;
@@ -48,16 +50,24 @@ li a:hover:not(.active) {
  a:hover:not(.active) {
     background-color: #adad85;
 }
-        </style>
-        <div class="topnav">
   
-         <a href="Homepage/homepage.html">Home</a>   
+</style>
+
+    
+
+       
+       
+    
+
+       <div class="topnav">
+  
+           
         <ul>
-  <li><a href="Homepage/cv_page1.html">Curriculum Vitae</a>
+  <li><a href="cv_page1.html">Curriculum Vitae</a>
   <ul>
-        <li><a href="Homepage/cv_page1.html">CV Page 1</a></li>
-        <li><a href="Homepage/cv_page2.html">CV Page 2</a></li>
-        <li><a href="Homepage/cv_page3.html">CV Page 3</a></li>
+        <li><a href="cv_page1.html">CV Page 1</a></li>
+        <li><a href="cv_page2.html">CV Page 2</a></li>
+        <li><a href="cv_page3.html">CV Page 3</a></li>
       </ul>
     </li>
   </ul>
@@ -76,25 +86,11 @@ li a:hover:not(.active) {
   <a href=https://is1113117410434.herokuapp.com/>Website link </a>
   
 </div>
-         <h1 class="mainheading">Cloudco</h1>
-        <h4>RECEIPT</h4>
-                
-        <?php
-        // Echo session variables that were set on previous page
-        $username = $_POST['username'];
-        echo"Name:$username .";
-        ?>
-        <br/>
-        <?php
-        $useremail = $_POST['useremail'];
-        echo"E-mail:$useremail .";
-        ?>
-        <br/>
-        <?php
-        echo "Total is " . $_SESSION["total"] . ".";
-        ?>
-        <br/>
-        <a href="../homepage.html" class="btn btn-success">Home</a>
-    </body>
+<h1 style="align:center" class="mainheading">IS1113 Project(117410434)</h1>
+
     
+    
+
+        
+ </body>
 </html>

@@ -54,13 +54,13 @@ li a:hover:not(.active) {
       </style>
       <div class="topnav">
   
-        <a href="homepage.html">Home</a>    
+        <a href="homepage/homepage.html">Home</a>    
         <ul>
   <li><a href="cv_page1.html">Curriculum Vitae</a>
   <ul>
-        <li><a href="cv_page1.html">CV Page 1</a></li>
-        <li><a href="cv_page2.html">CV Page 2</a></li>
-        <li><a href="cv_page3.html">CV Page 3</a></li>
+        <li><a href="homepage/cv_page1.html">CV Page 1</a></li>
+        <li><a href="homepage/cv_page2.html">CV Page 2</a></li>
+        <li><a href="homepage/cv_page3.html">CV Page 3</a></li>
       </ul>
     </li>
   </ul>
@@ -79,8 +79,10 @@ li a:hover:not(.active) {
   <a href=https://is1113117410434.herokuapp.com/>Website link </a>
   
 </div>
-        
+            <h1 class="mainheading">Cloudco</h1>
             <h4>Select a Product</h4>
+            <br/>
+            <a href="about_cloud.html">About Our Services</a>
             
             <br/>
             
