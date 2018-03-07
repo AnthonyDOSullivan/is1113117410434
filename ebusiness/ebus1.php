@@ -54,25 +54,25 @@ li a:hover:not(.active) {
       </style>
       <div class="topnav">
   
-        <a href="homepage/homepage.html">Home</a>    
+        <a href="../homepage.html">Home</a>    
         <ul>
   <li><a href="cv_page1.html">Curriculum Vitae</a>
   <ul>
-        <li><a href="homepage/cv_page1.html">CV Page 1</a></li>
-        <li><a href="homepage/cv_page2.html">CV Page 2</a></li>
-        <li><a href="homepage/cv_page3.html">CV Page 3</a></li>
+        <li><a href="../cv_page1.html">CV Page 1</a></li>
+        <li><a href="../cv_page2.html">CV Page 2</a></li>
+        <li><a href="../cv_page3.html">CV Page 3</a></li>
       </ul>
     </li>
   </ul>
   <ul>
-    <li><a href="Interests/sports.html">Interests</a>
+    <li><a href="../sports.html">Interests</a>
     <ul>
-        <li><a href="Interests/sports.html">Sports</a></li>
-        <li><a href="Interests/travel.html">Travel</a></li>
+        <li><a href="../sports.html">Sports</a></li>
+        <li><a href="../travel.html">Travel</a></li>
     </ul>
     </li>
     </ul>
-  <a href="ebusiness/ebus1.php">E-Business </a>
+  <a href="../ebus1.php">E-Business </a>
   <a href="about_cloud.html">About Cloud Services</a>
   <a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a>
   <a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a>
