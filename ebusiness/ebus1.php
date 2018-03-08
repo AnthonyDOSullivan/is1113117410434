@@ -72,8 +72,8 @@ li a:hover:not(.active) {
     </ul>
     </li>
     </ul>
-  <a href="../ebus1.php">E-Business </a>
-  <a href="about_cloud.html">About Cloud Services</a>
+  <a href="ebus1.php">E-Business </a>
+  <a href="../about_cloud.html">About Cloud Services</a>
   <a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a>
   <a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a>
   <a href=https://is1113117410434.herokuapp.com/>Website link </a>
