@@ -57,9 +57,9 @@ li a:hover:not(.active) {
     background-color: #adad85;
 }
         </style>
-        <div class="topnav">
+         <div class="topnav">
   
-         <a href="../homepage.html">Home</a>   
+        <a href="../homepage.html">Home</a>    
         <ul>
   <li><a href="../cv_page1.html">Curriculum Vitae</a>
   <ul>
@@ -70,15 +70,15 @@ li a:hover:not(.active) {
     </li>
   </ul>
   <ul>
-    <li><a href="../sports.html">Interests</a>
+    <li><a href="../Interests/sports.html">Interests</a>
     <ul>
         <li><a href="../Interests/sports.html">Sports</a></li>
-        <li><a href="../travel.html">Travel</a></li>
+        <li><a href="../Interests/travel.html">Travel</a></li>
     </ul>
     </li>
     </ul>
-  <a href="../ebus1.php">E-Business </a>
-  <a href="about_cloud.html">About Cloud Services</a>
+  <a href="ebus1.php">E-Business </a>
+  <a href="../about_cloud.html">About Cloud Services</a>
   <a href=https://github.com/AnthonyDOSullivan/is1113117410434>Github</a>
   <a href=https://dashboard.heroku.com/apps/is1113117410434/deploy/github>Heroku</a>
   <a href=https://is1113117410434.herokuapp.com/>Website link </a>

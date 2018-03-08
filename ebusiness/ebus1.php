@@ -56,7 +56,7 @@ li a:hover:not(.active) {
   
         <a href="../homepage.html">Home</a>    
         <ul>
-  <li><a href="cv_page1.html">Curriculum Vitae</a>
+  <li><a href="../cv_page1.html">Curriculum Vitae</a>
   <ul>
         <li><a href="../cv_page1.html">CV Page 1</a></li>
         <li><a href="../cv_page2.html">CV Page 2</a></li>
@@ -65,10 +65,10 @@ li a:hover:not(.active) {
     </li>
   </ul>
   <ul>
-    <li><a href="../sports.html">Interests</a>
+    <li><a href="../Interests/sports.html">Interests</a>
     <ul>
-        <li><a href="../sports.html">Sports</a></li>
-        <li><a href="../travel.html">Travel</a></li>
+        <li><a href="../Interests/sports.html">Sports</a></li>
+        <li><a href="../Interests/travel.html">Travel</a></li>
     </ul>
     </li>
     </ul>
